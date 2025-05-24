@@ -8,7 +8,15 @@ header {
 }
 
 nav {
-    background-color: lightblue;
+    display: inline-block;
+    width: 80%;
+    background-color: lightgray;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 main {
@@ -18,12 +26,14 @@ main {
 
 footer {
     background-color: lightgray;
+    font-weight: bold;
 }
 
 li {
-    display: inline-block;
+    display: inline;
     width: 20%;
 }
+
 
 h1 {
     text-align: center;
@@ -33,4 +43,23 @@ h1 {
 
 p {
     line-height: 1.2;
+}
+
+header img {
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.grid img {
+    width: 100%;
 }
